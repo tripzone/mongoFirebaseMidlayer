@@ -6,8 +6,7 @@ To run:
 node midlayer.js
 
 Make sure to update:
-var serviceAccount = require("./secret.json"); // path to your firebase secret file
-const dbUrl = 'https://YOUR DATABASE.firebaseio.com/';
-const authId = 'YOUR DATABASE AUTH ID, different than api key';
-mongoose.connect('mongodb://localhost/YOURDATABASENAME');
-
+- path to your firebase secret file
+- path to your firebase database
+- firebase database Auth Id
+- path to your mongoDB databse
